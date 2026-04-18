@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **(C, C++, Python)**
 
-- 📫 Reach me at **a.molindez@gmail.com**
+- 📫 Reach me at **amolindez@gmail.com**
 
 - ⚡ Fun fact **I'm also actor, I love movies and theater, both whatching and making.**
 
