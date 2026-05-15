@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Abel Molina</h1>
 <h3 align="center">Student at 42 Campus</h3>
 
-- 🌱 I’m currently learning **(C, C++, Python)**
+- I’m currently learning **(C, C++, Python)**
 
-- 📫 Reach me at **amolindez@gmail.com**
+- Reach me at **amolindez@gmail.com**
 
-- ⚡ Fun fact **I'm also actor, I love movies and theater, both whatching and making.**
+- Fun fact **I'm also actor, I love movies and theater, both whatching and making.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
