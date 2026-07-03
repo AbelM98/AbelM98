@@ -1,6 +1,4 @@
 
-## `./42_progress`
-
 <p align="center">
   <img
     src="https://badge.mediaplus.ma/binary/amolina"
