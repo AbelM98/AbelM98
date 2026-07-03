@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&weight=700\&size=34\&duration=2800\&pause=900\&color=58A6FF\&center=true\&vCenter=true\&width=800\&height=70\&lines=Hi%2C+I'm+ABEL+MOLINA;Software+Developer+in+Progress;42+Madrid+Student;Exploring+AI+Engineering)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&weight=700\&size=34\&duration=2800\&pause=900\&color=58A6FF\&center=true\&vCenter=true\&width=800\&height=70\&lines=Hi%2C+I'm+ABEL+MOLINA;Software+Developer+in+Progress;42+Madrid+Student)](https://git.io/typing-svg)
 
 `42 Madrid` · `C` · `Python` · `Linux` · `AI Engineering`
 
