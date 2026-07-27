@@ -98,8 +98,9 @@ and understanding things.
 <div align="center">
 
 <img
- src="https://github-readme-streak-stats.herokuapp.com/?user=AbelM98&theme=github-dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"
- alt="AbelM98's GitHub streak"
+ src="./github-metrics.svg"
+ alt="AbelM98's GitHub metrics"
+ width="100%"
 />
 
 <br>
@@ -108,5 +109,7 @@ and understanding things.
 ![Profile views](https://komarev.com/ghpvc/?username=AbelM98&color=58A6FF&style=flat&label=profile+views)
 
 </div>
+
+<sub>Generated daily by a self-hosted <a href="https://github.com/AbelM98/AbelM98/blob/main/.github/workflows/metrics.yml">GitHub Action</a> — no third-party runtime dependency.</sub>
 
 <br>
