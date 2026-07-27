@@ -100,7 +100,7 @@ and understanding things.
 <img
  src="./github-metrics.svg"
  alt="AbelM98's GitHub metrics"
- width="100%"
+ width="90%"
 />
 
 <br>
