@@ -8,6 +8,23 @@
 
 <br>
 
+## `./reach_me`
+
+<div align="center">
+
+### Open to collaboration and work opportunities
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abel_Molina-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/abel-molina-fern%C3%A1ndez-2262a0337)
+[![GitHub](https://img.shields.io/badge/GitHub-AbelM98-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/AbelM98)
+
+```text
+$ connect --collaborate --build
+```
+
+</div>
+
+<br>
+
 ## `> whoami`
 
 ```bash
@@ -53,13 +70,13 @@ and understanding things.
 
 ## `./featured_projects`
 
-| Project                                           | Description                                                    | Stack |
-| :------------------------------------------------ | :------------------------------------------------------------- | :---: |
-| [push_swap](https://github.com/AbelM98/push_swap) | Stack-based sorting algorithm focused on minimizing operations |  `C`  |
-
-```text
-More projects currently compiling...
-```
+| Project | Description | Stack |
+| :--- | :--- | :---: |
+| [**call-me-maybe**](https://github.com/AbelM98/call-me-maybe) | Turns natural-language prompts into structured function calls via **constrained decoding** over a local LLM — every output is guaranteed valid, schema-conforming JSON | `Python` |
+| [**push_swap**](https://github.com/AbelM98/push_swap) | Sorts a stack of integers using two stacks and a restricted instruction set, minimizing the number of operations via a chunk-based algorithm | `C` |
+| [**libft**](https://github.com/AbelM98/libft) | Custom reimplementation of core libc functions — the base library reused across every later 42 project | `C` |
+| [**get_next_line**](https://github.com/AbelM98/get_next_line) | Reads a file line by line from one or several file descriptors at once, using static state and manual buffer handling | `C` |
+| [**ft_printf**](https://github.com/AbelM98/ft_printf) | Reimplementation of `printf`, handling variadic arguments and multiple format specifiers | `C` |
 
 <br>
 
@@ -76,34 +93,20 @@ More projects currently compiling...
 
 <br>
 
-## `./github_stats`
+## `./github_activity`
 
 <div align="center">
 
 <img
- height="165"
- src="https://github-readme-stats.vercel.app/api?username=AbelM98&show_icons=true&theme=github_dark&hide_border=true"
+ src="https://github-readme-streak-stats.herokuapp.com/?user=AbelM98&theme=github-dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"
+ alt="AbelM98's GitHub streak"
 />
 
-<img
- height="165"
- src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbelM98&layout=compact&theme=github_dark&hide_border=true"
-/>
+<br>
+
+![Followers](https://img.shields.io/github/followers/AbelM98?label=followers&style=social)
+![Profile views](https://komarev.com/ghpvc/?username=AbelM98&color=58A6FF&style=flat&label=profile+views)
 
 </div>
 
 <br>
-
-## `./reach_me`
-
-<div align="center">
-
-### Open to collaboration and work opportunities
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abel_Molina-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/abel-molina-fernández-2262a0337)
-
-```text
-$ connect --collaborate --build
-```
-
-</div>
