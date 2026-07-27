@@ -87,6 +87,7 @@ and understanding things.
 <img
  src="https://badge.mediaplus.ma/binary/amolina"
  alt="amolina's 42 stats"
+ width="90%"
 />
 
 </div>
