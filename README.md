@@ -15,6 +15,7 @@
 ### Open to collaboration and work opportunities
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Abel_Molina-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/abel-molina-fern%C3%A1ndez-2262a0337)
+[![Email](https://img.shields.io/badge/Email-a.molindez%40gmail.com-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:a.molindez@gmail.com)
 
 ```text
 $ connect --collaborate --build
