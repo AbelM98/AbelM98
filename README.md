@@ -85,12 +85,14 @@ and understanding things.
 <div align="center">
 
 <img
- src="https://badge.mediaplus.ma/binary/amolina"
+ src="./42-badge.svg"
  alt="amolina's 42 stats"
  width="90%"
 />
 
 </div>
+
+<sub>Refreshed daily by a <a href="https://github.com/AbelM98/AbelM98/blob/main/.github/workflows/update-42-badge.yml">GitHub Action</a> that validates the badge before committing it — falls back to the last known-good badge if the provider fails.</sub>
 
 <br>
 

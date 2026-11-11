@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <rect width="900" height="200" rx="12" fill="#0d1117"/>
+  <text x="50%" y="46%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#58A6FF">
+    42 stats badge pending refresh
+  </text>
+  <text x="50%" y="66%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#8b949e">
+    amolina — updated automatically once the provider responds
+  </text>
+</svg>

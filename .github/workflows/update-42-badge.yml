@@ -1,0 +1,68 @@
+name: Update 42 Badge
+
+# The badge provider (badge.mediaplus.ma) is unreliable: sometimes it returns
+# an empty body or an HTML error page. We only replace 42-badge.svg when the
+# download is clearly a real badge; otherwise we keep the last good badge and
+# finish successfully (with a warning) so no failure email is sent.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: profile-readme-assets
+  cancel-in-progress: false
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download and validate 42 badge
+        id: download
+        shell: bash
+        run: |
+          set -uo pipefail
+          url="https://badge.mediaplus.ma/binary/amolina"
+          tmp="$(mktemp)"
+          trap 'rm -f "$tmp"' EXIT
+          echo "valid=false" >> "$GITHUB_OUTPUT"
+
+          if ! curl --fail --location --silent --show-error --retry 3 --max-time 60 "$url" -o "$tmp"; then
+            echo "::warning::42 badge provider unreachable; keeping the existing badge."
+            exit 0
+          fi
+
+          size=$(stat -c %s "$tmp")
+          # A real badge is tens of KB; error pages are a few hundred bytes or empty.
+          if (( size < 20000 )); then
+            echo "::warning::42 badge too small (${size} bytes); keeping the existing badge."
+            exit 0
+          fi
+          # Must be an SVG document from the first byte, not HTML that merely mentions svg.
+          if ! head -c 200 "$tmp" | tr -d '\n\r' | sed 's/^[[:space:]]*//' | grep -Eq '^(<\?xml[^>]*>[[:space:]]*)?<svg[[:space:]>]'; then
+            echo "::warning::42 badge is not an SVG document; keeping the existing badge."
+            exit 0
+          fi
+          if ! grep -q 'amolina' "$tmp"; then
+            echo "::warning::42 badge does not contain the expected login; keeping the existing badge."
+            exit 0
+          fi
+
+          install -m 0644 "$tmp" 42-badge.svg
+          echo "valid=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit badge
+        if: steps.download.outputs.valid == 'true'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add 42-badge.svg
+          git diff --staged --quiet && exit 0
+          git commit -m "update 42 badge"
+          git pull --rebase origin main
+          git push
